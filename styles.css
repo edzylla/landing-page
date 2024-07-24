@@ -59,27 +59,83 @@
 .flex-container .one .subheader h1{
     font-size:48px;
     color:#F9FAF8;
+    margin-bottom: 20px;
 }
 
 .flex-container .one .subheader p{
     font-size:18px;
     color:#F9FAF8;
     text-align: left;
+    margin-bottom:20px;
+    margin-right:100px;
 }
 
+.flex-container .one .subheader button{
+    width: 120px;
+    height: 40px;
+    background-color: #3882F6;
+    color:#F9FAF8;
+    font-size:18px;
+    border-radius: 10px;
+    border: 1px solid #1F2937;
+    margin-top:10px;
+}
 
-.flex-container .one p{
-    text-align: end;
+.flex-container .one .subheader img{
+    border-radius: 10px;
+    border: 1px solid #1F2937;
+
 }
 
 .flex-container .two{
     background-color: white;
     flex-grow:1;
     flex-basis:1200px;
+    justify-content: space-evenly;
+
+}
+
+.flex-container .two p{
+    font-size:36px;
+    font:bold;
+    color:#1F2937;
+    text-align: center;
+    padding-top:30px;
+}
+
+.flex-container .two .models{
+    display:flex;
+    padding-top:100px;
+    padding-left:200px;
+    padding-right:200px;
+}
+
+.flex-container .two .models .model2,
+.flex-container .two .models .model3,
+.flex-container .two .models .model1{
+    margin-right:40px;
+}
+
+.flex-container .two .models .model1{
+    margin-left:20px;
+}
+
+.flex-container .two .models .model1,
+.flex-container .two .models .model2,
+.flex-container .two .models .model3,
+.flex-container .two .models .model4{
+        border:1px solid #1F2937;
+
 }
 
 .flex-container .three{
     background-color: #1F2937;
     flex-grow:1;
     flex-basis:150px;
+}
+
+.flex-container .three p{
+    color:white;
+    text-align:center;
+    padding-top:65px;
 }
