@@ -54,6 +54,8 @@
 
 .flex-container .one .subheader{
     display:flex;
+    align-items:center;
+    
 }
 
 .flex-container .one .subheader h1{
@@ -90,14 +92,14 @@
 .flex-container .two{
     background-color: white;
     flex-grow:1;
-    flex-basis:1200px;
+    flex-basis:1600px;
     justify-content: space-evenly;
 
 }
 
-.flex-container .two p{
+.flex-container .two #primp{
     font-size:36px;
-    font:bold;
+    font-weight:bold;
     color:#1F2937;
     text-align: center;
     padding-top:30px;
@@ -124,13 +126,90 @@
 .flex-container .two .models .model2,
 .flex-container .two .models .model3,
 .flex-container .two .models .model4{
-        border:1px solid #1F2937;
+    border-radius:10px;
+    border:3px solid #3882F6;
+    overflow:hidden;
+}
 
+.flex-container .two .models .model1 div,
+.flex-container .two .models .model2 div,
+.flex-container .two .models .model3 div,
+.flex-container .two .models .model4 div{
+    font-size: 24px;
+    height:60px;
+    color:#1F2937;
+    background-color: #E5E7EB;
+    text-align:center;
+}
+
+.flex-container .two .quote{
+    margin-top:200px;
+    background-color:#E5E7EB;
+    height:400px;
+}
+
+.flex-container .two .quote #text{
+    font-style:italic;
+    font-weight: 300;
+    font-size:36px;
+    color:#1F2937;
+    text-align: justify;
+    padding-top:100px;
+    padding-left:200px;
+    padding-right:200px;
+    margin-bottom:20px;
+}
+
+.flex-container .two .quote #last-sentence{
+    font-weight:bold;
+    font-size:32px;
+    color:#1F2937;
+    text-align: end;
+    margin-right: 200px;
+}
+
+.flex-container .two{
+    display: grid;
+    place-items: center;
+}
+
+.flex-container .two .bottom{
+    display:grid;
+    align-items:center;
+    margin:120px;
+    height:160px;
+    width:1000px;
+    background-color:#3882F6;
+    border-radius:10px;
+    color:#F9FAF8;
+    text-align: center;
+}
+
+.flex-container .two .bottom .bottom-container{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flex-container .two .bottom .bottom-container p{
+    font-size:26px;
+    color:#F9FAF8
+}
+
+.flex-container .two .bottom .bottom-container button{
+    background-color:#3882F6;
+    border-radius:7px;
+    border:2px solid #F9FAF8;
+    width:140px;
+    height:auto;
+    font-size:18px;
+    font-weight:450;
+    color:#F9FAF8;
+    padding:5px;
 }
 
 .flex-container .three{
     background-color: #1F2937;
-    flex-grow:1;
     flex-basis:150px;
 }
 
@@ -138,4 +217,5 @@
     color:white;
     text-align:center;
     padding-top:65px;
+    font-size:18px;
 }
